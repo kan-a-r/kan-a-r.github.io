@@ -1,7 +1,21 @@
-h1 {
-    text-align: center;
+/* PC view */
+@media screen and (min-width: 481px){
+
+    h1 {
+        text-align: center;
+    }
+    
+    p {
+        text-align: center;
+    }
+
+    iframe {
+        width: 50%;
+    }
 }
 
-p {
-    text-align: center;
-  }
+
+/* Mobile view */
+@media screen and (max-width: 480px){
+
+}
